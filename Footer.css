@@ -1,0 +1,30 @@
+
+footer{
+    background-color: rgb(10, 78, 137);
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: -webkit-linear-gradient(left, orange, yellow, green, cyan,blue,violet,);
+    background: -o-linear-gradient(right, orange,yellow,green,cyan,blue,violet);
+    background: -moz-linear-gradient(right, orange,yellow,green,cyan,blue,violet);
+    background: linear-gradient(to right,orange,yellow,green,cyan,blue,violet);
+  }
+  .footer-logo{
+    margin-right: 610px;
+    list-style: none;
+  }
+  .footer-logo a{
+    justify-content: space-between;
+    margin: 10px;
+    color: black;
+    size: 20px;
+  }
+  .footer-logo p{
+    color: black;
+  }
+  .contact{
+    margin-left: 40px;
+    margin-top: 50px;
+  }

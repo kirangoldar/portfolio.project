@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+} 
+span{
+    color: orange;
+}
+.header-payment-container i{
+    padding-left: 25px;
+    margin-top: 20px;
+}
+.header-content a{
+    background: purple;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.porfile-img-container{
+    width: 45%;
+    height: 80%;
+    position: relative;
+    margin-left: 10%;
+    bottom: 0;
+    opacity: 20rem;
+}
+.porfile-img-container img{
+    border-radius: 150%;
+    position: absolute;
+    padding: 10px;
+    margin-top: 80px;
+    margin-left: 5px;
+}
+
+.card-1{
+    display: block;
+    padding-top: 50px;
+}
+.card-A{
+    background: chartreuse;;
+    display: inline-block;
+    border-style: groove;
+    border: 1px solid black;
+    height: 100%;
+    width: 100px;
+    border-radius: 4px;
+}
+.card-B{
+    background: chartreuse;
+    display: inline-block;
+    border-style: groove;
+    border: 1px solid orange;
+    height: 100%;
+    width: 100px;
+    margin-left: 70px;
+    border-radius: 4px;
+}
+.card-C{
+    background: chartreuse;
+    border-style: groove;
+    border: 1px solid red;
+    display: inline-block;
+    height: 100%;
+    width: 100px;
+    margin-left: 70px;
+    padding-top: 5%;
+    border-radius: 4px;
+}
+
+.hire-me{
+    padding-top: 20px;
+}
+.header-payment-container button:hover{
+    background-color: orange;
+}
+.languages{
+    background-color: aliceblue;
+}
+.languages h3{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.languages img{
+    width: 100px;
+    
+}
+
+.languages-content {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+
+ .porfile-img-container img{
+    animation: rotation 10s infinite linear;
+  }
+  
+  @keyframes rotation {
+    10% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  .header-container h1 {
+        overflow: hidden;
+        border-right: .15em aliceblue;
+        white-space: nowrap;
+        animation: typing 3s infinite;
+        font-size: 1.6rem;
+        width: 0;
+      }
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+  
+  
+  
+  
+  
